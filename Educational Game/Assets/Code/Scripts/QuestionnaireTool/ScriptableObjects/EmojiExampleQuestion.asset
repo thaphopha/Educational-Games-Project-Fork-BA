@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efc41e0e205816e40837f90f1327b8be, type: 3}
+  m_Name: EmojiExampleQuestion
+  m_EditorClassIdentifier: 
+  questionID: 0
+  questionText: Wie fuehlst du dich nachdem du gesehen hast wie deine Artgenossen
+    vom Fischernetz gefangen wruden?
+  narratorAudio: {fileID: 8300000, guid: f7ac23e07b15f8543b3075f0496e2c4d, type: 3}
+  answerType: 0
+  answerOptions:
+  - answerID: gluecklich
+    answerPrefab: {fileID: 7011338334908291590, guid: 131deaab77c92c948826f2dfe37e3ee2, type: 3}
+    responseAudio: {fileID: 8300000, guid: b3e616a71f4683c4badc811d9e296609, type: 3}
+  - answerID: wuetend
+    answerPrefab: {fileID: 4744780229755301366, guid: d6eaadb6fc2fe47498dbb668f9091299, type: 3}
+    responseAudio: {fileID: 8300000, guid: d67bc45e32651e14a931414d5819e2dd, type: 3}
